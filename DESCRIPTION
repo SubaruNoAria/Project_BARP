@@ -1,0 +1,19 @@
+Package: Project_BARP
+Title: Week 4 Assignment of the Building an R Package course at coursera.org
+Version: 0.1.0
+Authors: Sean Chuan
+Description: This training exercise implements functions for reading and visualizing NHTSA FARS data.
+Depends: R (>= 3.4)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: dplyr,
+    graphics,
+    maps,
+    readr,
+    tidyr
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
